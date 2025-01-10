@@ -5,9 +5,26 @@
   background-repeat: no-repeat;
 }
 
-.menu-container {
+.heading-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  padding: 15px 20px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
 }
 
 .travel1 {
