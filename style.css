@@ -5,8 +5,9 @@
   background-repeat: no-repeat;
 }
 
-h1 {
-  position: fixed;
+.menu-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .travel1 {
