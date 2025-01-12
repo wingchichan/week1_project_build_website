@@ -19,6 +19,8 @@ body {
   position: fixed;
   padding: 15px 50px;
   z-index: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100vw;
 }
 
 nav {
@@ -82,8 +84,15 @@ h1.second-title {
 }
 
 footer {
-  text-align: center;
   padding: 20px;
   background-color: black;
   color: white;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fa {
+  color: white;
+  text-decoration: none;
 }
